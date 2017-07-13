@@ -22,7 +22,7 @@ $(document).ready(function() {
   $("#formConverter").submit(function(event) {
     var userInput = parseInt($("#numberInput").val());
     var output = convertNumber(userInput);
-    $("p").text(userInput);
+    $("p").text(output);
     event.preventDefault();
   });
 });
